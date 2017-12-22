@@ -1,0 +1,456 @@
+/*
+Theme Name:Imrostom
+Theme URI:http://www.imrostom.com/imrostom
+Author:Md Rostom Ali
+Author URI:http://www.imrostom.com
+Description:A Simple Wordpress Theme.
+Version:1.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:imrostom
+*/
+
+/**Theme Reset Css**/
+
+*{margin:0px;padding:0px;}
+body{background:#fff;color:#000}
+a{color:#fff;text-decoration:none}
+a:hover{color:#fff;text-decoration:none}
+img{width:100%}
+
+/* WordPress Core Class */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+        white-space: nowrap;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+.sticky {}
+.gallery-caption {}
+.bypostauthor {}
+
+
+
+
+.section_padding{padding:50px 0px}
+.btn-theme{background:#BA68C8;color:#fff}
+.btn-theme:hover{background:#A75DB4;color:#fff}
+
+/*Header Top Section Css Code*/
+.topbar_area {background: #a75db4 none repeat scroll 0 0;padding: 10px 0;}
+.topconinfo a {display: inline-block;padding: 3px 5px;}
+.socialtop a {padding: 8px;}
+.topbar_area a{color:#e6e6e6}
+.topbar_area a:hover{color:#fff}
+
+/*Header Area Css Code*/
+.header_area{background:#BA68C8}
+.logo a {color:#e6e6e6;display:block;font-size:30px;font-weight:bold;padding:10px;text-transform:uppercase;}
+.logo a:hover{color:#fff}
+
+/*MainMenu Area Css Code*/
+.mainmenu{}
+.mainmenu ul{list-style:none;margin-bottom:0px}
+.mainmenu ul li{display:inline-block}
+.mainmenu ul li a{color: #e6e6e6;display: block;font-size: 18px;padding: 18px 10px;}
+.mainmenu ul li a:hover{background:#A75DB4;color:#fff}
+
+/*Header Bottom Area Css Code*/
+.header_bottom_area {background:url("images/slide1.jpg") repeat scroll 0 0;position: relative;}
+.header_bottom_area::after {background: #333 none repeat scroll 0 0;content: "";height: 100%;opacity: 0.77;position: absolute;top: 0;width: 100%;}
+
+.items_table {display: table;height: 500px;position: relative;width: 100%;z-index: 997;}
+.item_cell {display: table-cell;text-align: center;vertical-align: middle;}
+.item_cell p{color: #fff;font-size: 20px;margin-bottom: 20px;padding: 5px 120px;}
+.call_to_about {background: #a75db4 none repeat scroll 0 0;border-radius: 5px;bottom: -23px;font-size: 20px;margin-left:-73px;padding: 10px;position: absolute;color:#e6e6e6}
+.call_to_about:hover{color:#fff}
+
+/*About Me Area Css Code Here*/
+.about_img {margin-top: 30px;text-align: center;}
+.about_img img {border: 7px solid #fff;box-shadow: 1px 1px 7px 7px #ddd;height: 250px;width: 180px;}
+
+/*About Me Right Area Css Code Here*/
+.about_des{}
+.about_des h2{color: #ba68c8;padding-bottom: 10px;}
+.about_des p{color: #555555;}
+.about_des_left {float: left;width: 60%;}
+.about_des_left li {border-bottom: 1px solid #ddd;list-style: outside none none;margin-left: 10px;padding: 10px;color:#555}
+.about_des_right {float: left;padding-left: 70px;padding-top: 100px;text-align: center;}
+
+/*Skills Bar Area Section */
+.skills_area{background:#BA68C8;color:#e6e6e6}
+.skills_area p {font-size: 17px;line-height: 24px;}
+.skills_area h2{color: #fff;padding-bottom: 10px;}
+.skill-progress-bar{}
+.single_skill_bar {margin-bottom: 10px;}
+.pro-bar-container{border: 1px solid #ddd;overflow: hidden;}
+.pro-bar-container div {font-weight: bold;height: 30px;padding: 6px;text-align: right;}
+.single_skill_bar > span {display: block;font-size: 20px;padding: 5px;text-transform: uppercase;}
+
+/*Experience Area*/
+.experience_area {color: #555;line-height: 23px;}
+.experience_area p{font-size:18px}
+.single_experience {background: #ba68c8 none repeat scroll 0 0;color: #f6f6f6;padding: 5px;}
+.single_experience h2{color:#f6f6f6;padding: 5px;font-size:20px;}
+
+/*Education Area Css Code Here*/
+.education_area{background:#BA68C8;color:#e6e6e6;}
+.education_area p{font-size:18px}
+.education_area h2{color: #fff;padding-bottom: 10px;}
+.single_education {background: #fff none repeat scroll 0 0;color: #555;padding: 5px;}
+.single_education h2{color:#555;padding: 5px;font-size:20px}
+
+/*Add Here Porfolio Area Css Code*/
+.portfolio_area {color: #555;}
+.portfolio_area p{font-size:18px;}
+.single_portfolio{height: 240px;overflow: hidden;position: relative;transition:all 0.5s ease 0s;cursor:pointer}
+.portfolio_show {height: 240px;}
+.overlay {display: table;height: 240px;left: -360px;position: absolute;text-align: center;top: 0;transition: all 0.5s ease 0s;width: 100%;z-index: 999;}
+.overlay i{display: table-cell;height: 100%;margin: 0;padding: 0;font-size:30px;color:#fff;vertical-align: middle;width: 100%;}
+.single_portfolio:hover .overlay{left:0px}
+.single_portfolio:hover .myoverlay {background: #BA68C8;content: "";height: 100%;opacity: 0.6;position: absolute;top: 0;width: 100%; z-index: 1;}
+
+
+/*Counter Section Here*/
+.counter_section{background:#BA68C8}
+.single_count {background: #fff none repeat scroll 0 0;border-radius: 5px;box-shadow: 1px 1px 1px 1px #ddd;color: #555;margin: 0 30px;padding: 30px; text-align: center;}
+.single_count i {display: block;font-size: 25px;padding: 5px;}
+.single_count span {font-size: 25px;}
+
+/*Testimonial Section*/
+.testimonial_section{color:#555}
+.single_test {display: flex;color:#555}
+.testimonial_img {display: flex;float: left;margin-right: 10px;width: 150px;}
+.testimonial_img img {margin-top: 25px;width:150px;height:150px}
+.testimonial_description {padding: 0 5px;}
+.testimonial_description h3 {margin: 24px 0 0;padding: 5px 0;}
+.testimonial_description span{display: block;margin-bottom: 5px;}
+
+/*Blog Section Add Here*/
+.blog_area{background:#BA68C8;color:#e6e6e6;}
+.blog_area p{font-size: 16px;}
+.single_blog {background: #fff none repeat scroll 0 0;box-shadow: 1px 1px 3px 3px #ddd;color: #000;margin-bottom: 38px;overflow: hidden;padding: 10px;}
+.single_blog h2 a{color: #555;font-size: 23px;margin: 8px 0 0;padding: 5px;background:inherit}
+.single_blog p{display: block;font-size: 15px;}
+.single_blog a {background:#a75db4 none repeat scroll 0 0;border-radius: 2px;color: #fff;font-size: 12px; padding: 3px;}
+.single_blog a:hover{color:#fff}
+.blog_meta {display: block;font-size: 16px;overflow: hidden;padding: 10px 0;}
+.single_meta_post {display: inline-block;float: left;}
+.single_meta_category {display: inline-block;float: right;}
+.blog_description {float: left;width: 100%;}
+.blog_description iframe{float: left;width: 100%;}
+.blog_description p iframe{float: left;width: 100%;}
+.mata_action {width:100%}
+.single_action_count {float: left;}
+.single_action_readmore {display: inline-block;float: right;}
+
+.theme_all_post{color:#555;background:#fff;margin-top:30px}.mata_action {border-top: 1px solid #ddd;overflow: hidden;padding: 10px;font-size:17px}
+
+
+
+/*Copuright Area Css Code*/
+.copyright_area{background:#BA68C8}
+.copyright_area p {color: #e6e6e6;font-size: 25px;margin: 0;text-align: center;}
+
+
+/*Contact Form Section Code Here*/
+.contacts_section{position:relative}
+.contact_form{}
+.single_form {margin-bottom: 8px;}
+.single_form label {color: #666;display: block;margin-bottom: 5px;}
+.single_form input,.single_form textarea {-moz-border-bottom-colors: none;-moz-border-left-colors: none;-moz-border-right-colors: none;-moz-border-top-colors: none;border-color: -moz-use-text-color -moz-use-text-color #ddd;border-image: none;border-style: none none solid;border-width: 0 0 1px;font-size: 15px;padding: 5px;width: 100%;}
+.single_form input:focus{border-bottom:1px solid #BA68C8}
+.single_form textarea:focus{border-bottom:1px solid #BA68C8}
+input[type="submit"] {background: #a75db4 none repeat scroll 0 0;border-radius: 3px;color: #efefef;font-size: 17px;padding: 10px;}
+.call_to_action_top {background: #a75db4 none repeat scroll 0 0;bottom: -20px;color: #fff;display: inline-block;font-size: 20px;left: 50%;margin: 0 auto 0 -30px;padding: 5px 20px;position: absolute;text-align: center;}
+
+/*Comment Form Section Code Here*/
+.comment-form{}
+.comment-form p {margin-bottom:15px;}
+.comment-form p label {color: #666;display: block;margin-bottom: 5px;}
+.comment-form input,.comment-form textarea {-moz-border-bottom-colors: none;-moz-border-left-colors: none;-moz-border-right-colors: none;-moz-border-top-colors: none;border-color: -moz-use-text-color -moz-use-text-color #ddd;border-image: none;border-style: none none solid;border-width: 0 0 1px;font-size: 15px;padding: 5px;width: 100%;}
+.comment-form input:focus{border-bottom:1px solid #BA68C8}
+.comment-form textarea:focus{border-bottom:1px solid #BA68C8}
+input[type="submit"] {background: #a75db4 none repeat scroll 0 0;border-radius: 3px;color: #efefef;font-size: 17px;padding: 10px;}
+
+
+
+
+/*Breadcumb Section Area*/
+
+.breadcumb_section {background:url("images/banner3.jpg") repeat scroll 0 0 / 100% 300%;color: #555;margin-bottom: 20px;position:relative}
+.breadcumb_section h2 {position: relative;z-index: 9999;font-size:40px}
+.breadcumb_section h2 a{color:#e6e6e6}
+.breadcumb_section::after {background:#555;content: "";height: 100%;left: 0;opacity: 0.6;position: absolute;top: 0;width: 100%;z-index: 1;}
+
+
+/*Sidebar Area Css Code*/
+.single_sidebar {margin-bottom: 15px;overflow: hidden;}
+.single_sidebar ul{list-style:none}
+.single_sidebar ul li {border-bottom: 1px solid #999;}
+.single_sidebar ul li a{padding:7px;display:block;color:#555}
+.single_sidebar ul li a:hover{color:#BA68C8}
+.single_sidebar h2 {color: #555;margin: 0 0 10px;padding: 10px;}
+.single_sidebar h2:hover{color: #55225E}
+.single_sidebar h2 a:hover{color: #55225E}
+
+.single_recents {border-bottom: 1px solid #ddd;display: flex;margin-bottom: 15px;padding-bottom: 15px;}
+.recent_posts{}
+.recent_thum {float: left;margin-right: 10px;}
+.recent_thum img {height:70px;width: 60px;}
+.recents_info h2{color: #555;font-size: 20px;margin: 0;padding:3px}
+.recents_info h2 a{color: #555;}
+
+.tags a{border: 1px solid #ddd;border-radius: 4px;color: #555;float: left;margin-bottom: 10px;margin-right: 10px;padding: 6px 8px;}
+.tags a:hover{color:#BA68C8;border:1px solid #BA68C8}
+
+/*Single Page Css Code*/
+.blog_metas {border-bottom: 1px solid #999;border-top: 1px solid #999;display: block;float: left;margin-bottom: 10px;margin-top: 5px;overflow: hidden;padding: 10px 0;width: 100%;}
+.share_meta {float: left;}
+.share_meta a {padding: 6px;}
+.blog_tags {float: right;}
+.blog_tags a {border-radius: 3px;margin-right: 3px;}
+.blog_pagination {display: inline;overflow: hidden;padding: 10px 0;}
+.blog_pagination a {font-size: 15px;padding: 5px;}
+
+
+/*Comment Section*/
+.comments_section{border-top: 1px solid #999;margin-bottom: 10px;overflow: hidden;}
+.comments_section > h2 {display: block;font-size: 25px;  margin-bottom: 15px;padding: 6px;}
+.single_comments{box-shadow: 1px 1px 1px 1px #ddd;margin: 5px;overflow: hidden;position: relative;margin-bottom:25px}
+.single_com_child{margin-left:50px;}
+.comments_header{display: flex;}
+.comments_meta h3{margin: 0;}
+.comments_image {height:80px;margin-right:10px;width:80px;}
+.comments_image img{height:80px;width:80px;}
+.comments_meta h3 {font-size: 20px;  margin: 0;padding-top: 5px;}
+.repley_date {position: absolute;right: 0;top: 0;}
+
+/*Map Section*/
+.contact_map {
+  height: 515px;
+  width: 100%;
+}
+.slicknav_menu {
+	display:none;
+}
+.full-width-owl{width:100%}
+
+.experiences .owl-prev {position: absolute;left: -33px;top: 45%;background:none!important}
+.experiences .owl-next {position: absolute;right: -33px;top: 45%;background:none!important}
+.experiences .owl-nav i {color: #ba68c8;font-size:35px;padding: 10px 5px;}
+.experiences .owl-nav i {color: #ba68c8;font-size:35px;padding: 10px 5px;}
+
+.educations .owl-prev {position: absolute;left: -33px;top: 45%;background:none!important}
+.educations .owl-next {position: absolute;right: -33px;top: 45%;background:none!important}
+.educations .owl-nav i {color: #fff;font-size:35px;padding: 10px 5px;}
+.educations .owl-nav i {color: #fff;font-size:35px;padding: 10px 5px;}
+
+.testimonials .owl-prev {position: absolute;left: -33px;top: 45%;background:none!important}
+.testimonials .owl-next {position: absolute;right: -33px;top: 45%;background:none!important}
+.testimonials .owl-nav i {color: #ba68c8;font-size:35px;padding: 10px 5px;}
+.testimonials .owl-nav i {color: #ba68c8;font-size:35px;padding: 10px 5px;}
+
+
+
+
+.shine div {position: relative;}
+
+.shine div::after {content: '';opacity: 0;position: absolute;top: 0;right: 0;bottom: 0;left: 0;background: #fff;animation: animate-shine 2s ease-out infinite;}
+
+@keyframes animate-shine {
+    0% {opacity: 0; width: 0;}
+    50% {opacity: .5;}
+    100% {opacity: 0; width: 95%;}
+}
+.blog_thum {height: 350px;}
+.blog_thum img{height:350px;}
+
+.blog_thum > a {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  padding: 0;
+}
+
+.single_blog h2 a:hover {
+  color: #333;
+}
+
+.pagination{}
+.pagination .page-numbers {
+  background: #BA68C8 none repeat scroll 0 0;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.pagination .page-numbers:hover{background:#55225e;color:#fff}
+.pagination .page-numbers.current{background:#55225e;color:#fff}
+
+
+.readmore_section .single_blog img {height: 200px;}
+.readmore_section .single_blog .blog_thum {height: 200px;}
+.readmore_section .single_blog h2 a {font-size:20px;}
+.media-left {
+  display: block;
+  float: left;
+}
+
+a:hover,a:focus{text-decoration:none}
+
+.author-name {
+  margin: 0;
+  padding: 5px;
+}
+*{list-style:none}
+.depth-1 .parent{margin-left:15px;list-style:none}
+.depth-2 .parent{margin-left:30px;list-style:none}
+.depth-3 .parent{margin-left:45px;list-style:none}
+
+.blog_description.myoverlay::after {
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 9999;
+}
+
+.blog_description.myoverlay{
+  float: left;
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+.mysearchform input{border:1px solid #ddd}
+
+.mysearchform input {border: 1px solid #ddd;font-size: 18px;margin-bottom: 10px;padding: 5px;width: 100%;}
+.mysearchform input:focus{border-bottom:1px solid #A75DB4}
+
+.page-title > span {color: #a75db4;font-weight: bold;text-transform: uppercase;}
+
+.search_404{text-align:center;}
+
+.single_blog.search_404 span {
+  color: #A75DB4;
+}
+
+
+
+.single_blog.search_404 a {
+  background: #a75db4 none repeat scroll 0 0;
+  color: #e6e6e6;
+  padding: 7px;
+}
+
+.mainmenu ul li.current-menu-item a{background: #a75db4 none repeat scroll 0 0;color: #fff;}
+
+
+
+
+
+.single_experience img {height: 175px !important;}
+.single_education img {height: 175px !important;}
+
+.single_portfolio img {
+  height: 100% !important;
+  width: 100%;
+}
+
+.single_portfolio {margin-bottom: 20px;}
